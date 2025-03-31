@@ -9,3 +9,13 @@ The contents of this repository demonstrates how to manage a virtual machine lif
 
 An overview of the architecture can be found below:
 ![High Level Architecture](/images/vm-provision-hld-flow-dev-hub.drawio.png)
+
+#### Imperative Task Examples:
+1. API call to IPAM 
+2. Virtual Machine name generation 
+3. DNS registration
+4. Customizing image
+   - Configure Red Hat subscription 
+   - Root password generation 
+   - Store root password in CMDB
+   - Package installation  
