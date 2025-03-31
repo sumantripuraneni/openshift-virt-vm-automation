@@ -18,4 +18,7 @@ An overview of the architecture can be found below:
    - Configure Red Hat subscription 
    - Root password generation 
    - Store root password in CMDB
-   - Package installation  
+   - Package installation 
+   - SSH key generation 
+   - Enable systemctl services (application specific)
+5. Template out virtual machine definition and push to git repository 
