@@ -25,9 +25,9 @@ An overview of the architecture can be found below:
 
 
 #### Building/Customizing Virtual Machine images
-1. Cloud-init - Cloud-init is a method for cross-platform cloud instance initialization. It is supported across all major public cloud providers, private cloud infrastructure, and bare-metal installations.
-2. Virt-customize: Virt-customize can customize a virtual machine (disk image) by installing packages, editing configuration files, and so on
-3. Packer: Packer is another tool for creating identical Virtual Machine (VM) images for multiple platforms from a single source configuration.
+1. [Cloud-init](https://cloud-init.io/): Cloud-init is a method for cross-platform cloud instance initialization. It is supported across all major public cloud providers, private cloud infrastructure, and bare-metal installations.
+2. [Virt-customize](https://libguestfs.org/virt-customize.1.html): Virt-customize can customize a virtual machine (disk image) by installing packages, editing configuration files, and so on
+3. [Packer](https://github.com/hashicorp/packer): Packer is another tool for creating identical Virtual Machine (VM) images for multiple platforms from a single source configuration.
 
 ### Virtual Machine De-provisioning
 ![High Level Architecture](/images/vm-deprovision-hld-flow-dev-hub.drawio.png)
