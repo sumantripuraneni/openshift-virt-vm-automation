@@ -9,6 +9,8 @@ The contents of this repository demonstrates how to manage a virtual machine lif
 
 An overview of the architecture can be found below:
 ![High Level Architecture](/images/vm-provision-hld-flow-dev-hub.drawio.png)
+User 
+[ACM Placement Decision](https://open-cluster-management.io/docs/concepts/content-placement/placement/)
 
 #### Imperative Task Examples:
 1. API call to IPAM 
@@ -32,6 +34,9 @@ An overview of the architecture can be found below:
 ### Virtual Machine De-provisioning
 ![High Level Architecture](/images/vm-deprovision-hld-flow-dev-hub.drawio.png)
 
+### Virtual Machine Rebuild/Repave
+![High Level Architecture](/images/vm-repave-hld-flow-dev-hub.drawio.png)
 
 ### Virtual Machine Patching
+
 ![High Level Architecture](/images/vm-patching-hld-flow-dev-hub.drawio.png)
