@@ -9,7 +9,10 @@ The contents of this repository demonstrates how to manage a virtual machine lif
 
 An overview of the architecture can be found below:
 ![High Level Architecture](/images/vm-provision-hld-flow-dev-hub.drawio.png)
-User 
+1. User requests a virtual machine in a self service model using API/GUI (Catalog from OpenSHift Developer Hub)
+2. Developer Hub triggers associated tekton pipeline 
+3. Tekton pipeline executes imperative tasks (examples below), prepares VM definitio and pushes to Git
+4. ACM creates a VM on a managed cluster by using `Prioritizers`
 [ACM Placement Decision](https://open-cluster-management.io/docs/concepts/content-placement/placement/)
 
 #### Imperative Task Examples:
