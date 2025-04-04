@@ -43,3 +43,6 @@ An overview of the architecture can be found below:
 ### Virtual Machine Patching
 
 ![High Level Architecture](/images/vm-patching-hld-flow-dev-hub.drawio.png)
+
+
+
