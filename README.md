@@ -15,8 +15,8 @@ An overview of the architecture can be found below:
 5. Push created artifacts to Git
 4. Kubernetes reconciler identifies new changes and applies (creates virtual machine)
 
-[ACM Placement Decision](https://open-cluster-management.io/docs/concepts/content-placement/placement/)<br/>
-[Placement API Integration with Argo CD](https://open-cluster-management.io/docs/scenarios/integration-with-argocd/)
+[ACM Placement API](https://open-cluster-management.io/docs/concepts/content-placement/placement/)<br/>
+[ACM Placement API Integration with ArgoCD](https://open-cluster-management.io/docs/scenarios/integration-with-argocd/)
 
 
 ### Virtual Machine De-provisioning
