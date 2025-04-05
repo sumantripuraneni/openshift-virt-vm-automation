@@ -40,7 +40,7 @@ An overview of the architecture can be found below:
 
 ### Virtual Machine Patching
 
-![High Level Architecture](/images/vm-patching-hld-flow-dev-hub.drawio.png)
+![High Level Architecture](/images/vm-patching-hld-flow-dev-hub-01.drawio.png)
 
 1. User requests for apply patch to a virtual machine in a self service model using API
 2. API triggers associated CI pipeline 
