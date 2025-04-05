@@ -20,7 +20,7 @@ An overview of the architecture can be found below:
 
 
 ### Virtual Machine De-provisioning
-![High Level Architecture](/images/vm-deprovision-hld-flow-dev-hub.drawio.png)
+![High Level Architecture](/images/vm-deprovision-hld-flow-dev-hub-01.drawio.png)
 
 ### Virtual Machine Rebuild/Repave
 ![High Level Architecture](/images/vm-repave-hld-flow-dev-hub.drawio.png)
