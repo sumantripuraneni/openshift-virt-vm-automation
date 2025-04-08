@@ -34,7 +34,7 @@
         </mxCell>
         <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;b id=&quot;docs-internal-guid-e85d315e-7fff-e321-e348-0ea4dcfe4f3e&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;img src=&quot;https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeQRELVk5ALlRjMewr-ZLmV9IYhXMeQ6v_rfV2Ia5DaNTH_Ru8GMJvMT1BwslSPiwCogyG7U4PiG4Cn6_R7c2C9wnt9av2WJbQUd_IsLY1Akv9aM70nwLoSHdkUzOWhJCo7cJM38g=s2048?key=4iAr-wgSrz9q1TLjRNUBGwjy&quot; height=&quot;63px;&quot; width=&quot;58px;&quot;&gt;&lt;/b&gt;" id="ZfKgAVAveOmhMlE-QbHx-26">
           <mxCell style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-            <mxGeometry x="710" y="92" width="30" height="10" as="geometry" />
+            <mxGeometry x="723" y="92" width="30" height="10" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="VmnGKtrk5ALSvNYi1B2h-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VmnGKtrk5ALSvNYi1B2h-11" target="ZfKgAVAveOmhMlE-QbHx-11" edge="1">
@@ -52,7 +52,7 @@
         <mxCell id="VmnGKtrk5ALSvNYi1B2h-17" value="Launch CI Pipeline" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="170" width="177.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X_-MZfdeXJ0Yzwarb_10-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VmnGKtrk5ALSvNYi1B2h-24" target="X_-MZfdeXJ0Yzwarb_10-2">
+        <mxCell id="X_-MZfdeXJ0Yzwarb_10-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VmnGKtrk5ALSvNYi1B2h-24" target="X_-MZfdeXJ0Yzwarb_10-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VmnGKtrk5ALSvNYi1B2h-24" value="Run image customization commands" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -70,10 +70,10 @@
             <mxPoint x="1260" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X_-MZfdeXJ0Yzwarb_10-2" value="Push created golden image to image repository&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X_-MZfdeXJ0Yzwarb_10-2" value="Push created golden image to image repository&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1220" y="251" width="110" height="69.88" as="geometry" />
         </mxCell>
-        <mxCell id="X_-MZfdeXJ0Yzwarb_10-4" value="Request creation of&lt;div&gt;&amp;nbsp;golden image&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X_-MZfdeXJ0Yzwarb_10-4" value="Request creation of&lt;div&gt;&amp;nbsp;golden image&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="69" width="177.5" height="30" as="geometry" />
         </mxCell>
       </root>
