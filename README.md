@@ -5,6 +5,25 @@ Automation to manage virtual machines in OpenShift
 
 The contents of this repository demonstrates how to manage a virtual machine lifecycle (provision/deprovision/patching/snapshot/recovery) through automation.
 
+### Golden Image Creation
+![High Level Architecture](/images/golden-image-creation-hld-flow-dev-hub-01.drawio.png)<br/>
+
+1. User requests for creation of golden image in a self service model using API
+2. API triggers associated CI pipeline 
+3. CI pipeline executes series of tasks as shown in diagram
+   - Validating input parameters received from API 
+   - Create data volume from openshift-virtualization-os-images or
+   - Import disk image from Red Hat CDN 
+   - Create necessary secrets such as root password, Red Hat Subcription account password, Public SSH key
+   - Customize image such as  
+     - Change root password
+     - Subcribe to Red Hat 
+     - Install packages 
+     - Run SE Linux re-labelling 
+     - Upload configuration files etc 
+5. Push golden image to image repository 
+4. Provide feedback to user 
+
 ### Virtual Machine Provisioning
 
 An overview of the architecture can be found below:
