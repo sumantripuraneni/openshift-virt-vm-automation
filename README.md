@@ -67,3 +67,27 @@ An overview of the architecture can be found below:
 5. Creates required artifacts and performs push activity to Git
 4. Kubernetes reconciler identifies new changes such a stop of a VM and start of a VM and applies them
 
+### CloudEvent
+[CloudEvents](https://cloudevents.io/) is an open specification for describing event data, providing a common format for event data across different services, platforms, and systems. It aims to simplify interoperability by defining a standardized way to structure event information, making it easier for systems to exchange and consume events. This standardization reduces the need for custom integrations and improves the portability of event-driven applications. 
+
+#### Example CloudEvent
+```
+{
+    "specversion" : "1.0",
+    "type" : "com.example.someevent",
+    "source" : "/mycontext",
+    "id" : "B234-1234-1234",
+    "time" : "2018-04-05T17:31:00Z",
+    "comexampleextension1" : "value",
+    "comexampleothervalue" : 5,
+    "unsetextension": null,
+    "datacontenttype" : "application/json",
+    "data" : {
+      "vmName": "demo01",
+      "eventTask": "Provisioning",
+      "eventSubTask": "Validation",
+      "status": "success",
+      "message: "VM - demo01 provisioned and running sucessfully"
+    }"
+}
+```
